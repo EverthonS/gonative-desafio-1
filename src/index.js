@@ -7,9 +7,11 @@ import {
   View
 } from 'react-native';
 
+import './config/ReactotronConfig';
 import './config/DevToolsConfig';
 
 export default class App extends Component {
+
   render() {
     return (
       <View style={styles.container}>
