@@ -1,17 +1,15 @@
 
 import React, { Component } from 'react';
 import {
-  Platform,
   StyleSheet,
   Text,
-  View
+  View,
 } from 'react-native';
 
-import './config/ReactotronConfig';
-import './config/DevToolsConfig';
+import 'config/ReactotronConfig';
+import 'config/DevToolsConfig';
 
 export default class App extends Component {
-
   render() {
     return (
       <View style={styles.container}>
